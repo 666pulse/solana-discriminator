@@ -10,11 +10,13 @@ fn main() -> () {
     }
     let name = name.expect("no name given");
     let hash = get_hash(&namespace, &name);
+    let hash_hex = hex::encode(hash);
 
     // print result
     println!("namespace: {}", namespace);
-    println!("name: {}", name);
-    println!("hash: {:?}\n", hash);
+    println!("instruction: {}", name);
+    println!("hash: {:?}", hash);
+    println!("hex: 0x{}\n", hash_hex);
     ()
 }
 
