@@ -1,3 +1,5 @@
+use heck::ToSnakeCase;
+
 fn main() -> () {
     let mut namespace = "global".to_string();
     let mut name = None;
@@ -21,7 +23,10 @@ fn main() -> () {
 }
 
 pub fn get_hash(namespace: &str, name: &str) -> [u8; 8] {
-    let preimage = format!("{}:{}", namespace, name);
+    let snake_name: String = name.to_snake_case();
+    print!("snake_name: {}\n", snake_name);
+
+    let preimage = format!("{}:{}", namespace, snake_name);
     let mut sighash = [0u8; 8];
     sighash.copy_from_slice(
         &anchor_lang::solana_program::hash::hash(preimage.as_bytes()).to_bytes()[..8],
