@@ -1,4 +1,6 @@
+use hex;
 use heck::ToSnakeCase;
+use base64::{Engine as _, engine::general_purpose::STANDARD as BASE64};
 
 fn main() -> () {
     let mut namespace = "global".to_string();
@@ -13,12 +15,14 @@ fn main() -> () {
     let name = name.expect("no name given");
     let hash = get_hash(&namespace, &name);
     let hash_hex = hex::encode(hash);
+    let base64_val = BASE64.encode(&hash);
 
     // print result
     println!("namespace: {}", namespace);
     println!("instruction: {}", name);
     println!("hash: {:?}", hash);
-    println!("hex: 0x{}\n", hash_hex);
+    println!("hex: 0x{}", hash_hex);
+    println!("base64: {}\n", base64_val);
     ()
 }
 
