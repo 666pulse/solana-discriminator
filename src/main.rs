@@ -1,4 +1,5 @@
 use hex;
+use bs58;
 use std::env::args;
 use heck::ToSnakeCase;
 use base64::{Engine as _, engine::general_purpose::STANDARD as BASE64};
@@ -18,6 +19,7 @@ fn main() -> () {
     let hash = get_hash(&namespace, &name);
     let hash_hex = hex::encode(hash);
     let base64_val = BASE64.encode(&hash);
+    let base58_val = bs58::encode(&hash).into_string();
 
     // print result
     println!("namespace: {}", namespace);
@@ -25,6 +27,7 @@ fn main() -> () {
     println!("hash: {:?}", hash);
     println!("hex: 0x{}", hash_hex);
     println!("base64: {}", base64_val);
+    println!("base58: {}\n", base58_val);
     ()
 }
 
