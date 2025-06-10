@@ -1,13 +1,15 @@
 use hex;
+use std::env::args;
 use heck::ToSnakeCase;
 use base64::{Engine as _, engine::general_purpose::STANDARD as BASE64};
 
 fn main() -> () {
     let mut namespace = "global".to_string();
     let mut name = None;
-    for arg in std::env::args().skip(1) {
+
+    for arg in args().skip(1) {
         if arg == "-n" {
-            namespace = std::env::args().nth(2).expect("no namespace given");
+            namespace = args().nth(2).expect("no namespace given");
         } else {
             name = Some(arg);
         }
@@ -22,7 +24,7 @@ fn main() -> () {
     println!("instruction: {}", name);
     println!("hash: {:?}", hash);
     println!("hex: 0x{}", hash_hex);
-    println!("base64: {}\n", base64_val);
+    println!("base64: {}", base64_val);
     ()
 }
 
