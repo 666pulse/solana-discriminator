@@ -10,5 +10,5 @@ base64 = "0.21"
 heck = "0.4"
 hex = "0.4"
 serde_json = "1.0"
-anchor-lang = "0.29"
+solana-program = "2.3.0"
 clap = { version = "4.4", features = ["derive"] }
