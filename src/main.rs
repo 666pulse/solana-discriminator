@@ -122,3 +122,45 @@ fn main() -> () {
     }
     ()
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_get_hash() {
+        // 测试基本的哈希生成
+        let hash = get_hash("global", "initialize");
+        assert_eq!(hash.len(), 8);
+        // 测试哈希值不为全 0
+        assert_ne!(hash, [0u8; 8]);
+
+        // 测试相同的输入产生相同的哈希
+        let hash1 = get_hash("global", "initialize");
+        let hash2 = get_hash("global", "initialize");
+        assert_eq!(hash1, hash2);
+
+        // 测试不同的输入产生不同的哈希
+        let hash3 = get_hash("global", "initialize");
+        let hash4 = get_hash("global", "update");
+        assert_ne!(hash3, hash4);
+
+        // 测试命名空间的影响
+        let hash5 = get_hash("global", "initialize");
+        let hash6 = get_hash("custom", "initialize");
+        assert_ne!(hash5, hash6);
+
+        // 测试特定的哈希值
+        let hash = get_hash("global", "swap");
+        let hash_hex = hex::encode(hash);
+        assert_eq!(format!("0x{}", hash_hex), "0xf8c69e91e17587c8");
+    }
+
+    #[test]
+    fn test_snake_case_conversion() {
+        // 测试驼峰命名转换为蛇形命名
+        let hash1 = get_hash("global", "initializeAccount");
+        let hash2 = get_hash("global", "initialize_account");
+        assert_eq!(hash1, hash2);
+    }
+}
