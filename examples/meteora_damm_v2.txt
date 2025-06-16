@@ -1,0 +1,198 @@
+meteora_damm_v2.json 找到 instructions 节点，包含以下指令：
+
+snake_name: add_liquidity
+namespace: global
+instruction: add_liquidity
+hash: [181, 157, 89, 67, 143, 182, 52, 72]
+hex: 0xb59d59438fb63448
+base64: tZ1ZQ4+2NEg=
+
+snake_name: claim_partner_fee
+namespace: global
+instruction: claim_partner_fee
+hash: [97, 206, 39, 105, 94, 94, 126, 148]
+hex: 0x61ce27695e5e7e94
+base64: Yc4naV5efpQ=
+
+snake_name: claim_position_fee
+namespace: global
+instruction: claim_position_fee
+hash: [180, 38, 154, 17, 133, 33, 162, 211]
+hex: 0xb4269a118521a2d3
+base64: tCaaEYUhotM=
+
+snake_name: claim_protocol_fee
+namespace: global
+instruction: claim_protocol_fee
+hash: [165, 228, 133, 48, 99, 249, 255, 33]
+hex: 0xa5e4853063f9ff21
+base64: peSFMGP5/yE=
+
+snake_name: claim_reward
+namespace: global
+instruction: claim_reward
+hash: [149, 95, 181, 242, 94, 90, 158, 162]
+hex: 0x955fb5f25e5a9ea2
+base64: lV+18l5anqI=
+
+snake_name: close_claim_fee_operator
+namespace: global
+instruction: close_claim_fee_operator
+hash: [38, 134, 82, 216, 95, 124, 17, 99]
+hex: 0x268652d85f7c1163
+base64: JoZS2F98EWM=
+
+snake_name: close_config
+namespace: global
+instruction: close_config
+hash: [145, 9, 72, 157, 95, 125, 61, 85]
+hex: 0x9109489d5f7d3d55
+base64: kQlInV99PVU=
+
+snake_name: close_position
+namespace: global
+instruction: close_position
+hash: [123, 134, 81, 0, 49, 68, 98, 98]
+hex: 0x7b86510031446262
+base64: e4ZRADFEYmI=
+
+snake_name: create_claim_fee_operator
+namespace: global
+instruction: create_claim_fee_operator
+hash: [169, 62, 207, 107, 58, 187, 162, 109]
+hex: 0xa93ecf6b3abba26d
+base64: qT7Pazq7om0=
+
+snake_name: create_config
+namespace: global
+instruction: create_config
+hash: [201, 207, 243, 114, 75, 111, 47, 189]
+hex: 0xc9cff3724b6f2fbd
+base64: yc/zcktvL70=
+
+snake_name: create_dynamic_config
+namespace: global
+instruction: create_dynamic_config
+hash: [81, 251, 122, 78, 66, 57, 208, 82]
+hex: 0x51fb7a4e4239d052
+base64: Uft6TkI50FI=
+
+snake_name: create_position
+namespace: global
+instruction: create_position
+hash: [48, 215, 197, 153, 96, 203, 180, 133]
+hex: 0x30d7c59960cbb485
+base64: MNfFmWDLtIU=
+
+snake_name: create_token_badge
+namespace: global
+instruction: create_token_badge
+hash: [88, 206, 0, 91, 60, 175, 151, 118]
+hex: 0x58ce005b3caf9776
+base64: WM4AWzyvl3Y=
+
+snake_name: fund_reward
+namespace: global
+instruction: fund_reward
+hash: [188, 50, 249, 165, 93, 151, 38, 63]
+hex: 0xbc32f9a55d97263f
+base64: vDL5pV2XJj8=
+
+snake_name: initialize_customizable_pool
+namespace: global
+instruction: initialize_customizable_pool
+hash: [20, 161, 241, 24, 189, 221, 180, 2]
+hex: 0x14a1f118bdddb402
+base64: FKHxGL3dtAI=
+
+snake_name: initialize_pool
+namespace: global
+instruction: initialize_pool
+hash: [95, 180, 10, 172, 84, 174, 232, 40]
+hex: 0x5fb40aac54aee828
+base64: X7QKrFSu6Cg=
+
+snake_name: initialize_pool_with_dynamic_config
+namespace: global
+instruction: initialize_pool_with_dynamic_config
+hash: [149, 82, 72, 197, 253, 252, 68, 15]
+hex: 0x955248c5fdfc440f
+base64: lVJIxf38RA8=
+
+snake_name: initialize_reward
+namespace: global
+instruction: initialize_reward
+hash: [95, 135, 192, 196, 242, 129, 230, 68]
+hex: 0x5f87c0c4f281e644
+base64: X4fAxPKB5kQ=
+
+snake_name: lock_position
+namespace: global
+instruction: lock_position
+hash: [227, 62, 2, 252, 247, 10, 171, 185]
+hex: 0xe33e02fcf70aabb9
+base64: 4z4C/PcKq7k=
+
+snake_name: permanent_lock_position
+namespace: global
+instruction: permanent_lock_position
+hash: [165, 176, 125, 6, 231, 171, 186, 213]
+hex: 0xa5b07d06e7abbad5
+base64: pbB9BuerutU=
+
+snake_name: refresh_vesting
+namespace: global
+instruction: refresh_vesting
+hash: [9, 94, 216, 14, 116, 204, 247, 0]
+hex: 0x095ed80e74ccf700
+base64: CV7YDnTM9wA=
+
+snake_name: remove_all_liquidity
+namespace: global
+instruction: remove_all_liquidity
+hash: [10, 51, 61, 35, 112, 105, 24, 85]
+hex: 0x0a333d2370691855
+base64: CjM9I3BpGFU=
+
+snake_name: remove_liquidity
+namespace: global
+instruction: remove_liquidity
+hash: [80, 85, 209, 72, 24, 206, 177, 108]
+hex: 0x5055d14818ceb16c
+base64: UFXRSBjOsWw=
+
+snake_name: set_pool_status
+namespace: global
+instruction: set_pool_status
+hash: [112, 87, 135, 223, 83, 204, 132, 53]
+hex: 0x705787df53cc8435
+base64: cFeH31PMhDU=
+
+snake_name: swap
+namespace: global
+instruction: swap
+hash: [248, 198, 158, 145, 225, 117, 135, 200]
+hex: 0xf8c69e91e17587c8
+base64: +MaekeF1h8g=
+
+snake_name: update_reward_duration
+namespace: global
+instruction: update_reward_duration
+hash: [138, 174, 196, 169, 213, 235, 254, 107]
+hex: 0x8aaec4a9d5ebfe6b
+base64: iq7EqdXr/ms=
+
+snake_name: update_reward_funder
+namespace: global
+instruction: update_reward_funder
+hash: [211, 28, 48, 32, 215, 160, 35, 23]
+hex: 0xd31c3020d7a02317
+base64: 0xwwINegIxc=
+
+snake_name: withdraw_ineligible_reward
+namespace: global
+instruction: withdraw_ineligible_reward
+hash: [148, 206, 42, 195, 247, 49, 103, 8]
+hex: 0x94ce2ac3f7316708
+base64: lM4qw/cxZwg=
+

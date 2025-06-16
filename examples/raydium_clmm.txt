@@ -1,0 +1,170 @@
+raydium_clmm.json 找到 instructions 节点，包含以下指令：
+
+snake_name: create_amm_config
+namespace: global
+instruction: create_amm_config
+hash: [137, 52, 237, 212, 215, 117, 108, 104]
+hex: 0x8934edd4d7756c68
+base64: iTTt1Nd1bGg=
+
+snake_name: update_amm_config
+namespace: global
+instruction: update_amm_config
+hash: [49, 60, 174, 136, 154, 28, 116, 200]
+hex: 0x313cae889a1c74c8
+base64: MTyuiJocdMg=
+
+snake_name: create_pool
+namespace: global
+instruction: create_pool
+hash: [233, 146, 209, 142, 207, 104, 64, 188]
+hex: 0xe992d18ecf6840bc
+base64: 6ZLRjs9oQLw=
+
+snake_name: update_pool_status
+namespace: global
+instruction: update_pool_status
+hash: [130, 87, 108, 6, 46, 224, 117, 123]
+hex: 0x82576c062ee0757b
+base64: gldsBi7gdXs=
+
+snake_name: create_operation_account
+namespace: global
+instruction: create_operation_account
+hash: [63, 87, 148, 33, 109, 35, 8, 104]
+hex: 0x3f5794216d230868
+base64: P1eUIW0jCGg=
+
+snake_name: update_operation_account
+namespace: global
+instruction: update_operation_account
+hash: [127, 70, 119, 40, 188, 227, 61, 7]
+hex: 0x7f467728bce33d07
+base64: f0Z3KLzjPQc=
+
+snake_name: transfer_reward_owner
+namespace: global
+instruction: transfer_reward_owner
+hash: [7, 22, 12, 83, 242, 43, 48, 121]
+hex: 0x07160c53f22b3079
+base64: BxYMU/IrMHk=
+
+snake_name: initialize_reward
+namespace: global
+instruction: initialize_reward
+hash: [95, 135, 192, 196, 242, 129, 230, 68]
+hex: 0x5f87c0c4f281e644
+base64: X4fAxPKB5kQ=
+
+snake_name: collect_remaining_rewards
+namespace: global
+instruction: collect_remaining_rewards
+hash: [18, 237, 166, 197, 34, 16, 213, 144]
+hex: 0x12eda6c52210d590
+base64: Eu2mxSIQ1ZA=
+
+snake_name: update_reward_infos
+namespace: global
+instruction: update_reward_infos
+hash: [163, 172, 224, 52, 11, 154, 106, 223]
+hex: 0xa3ace0340b9a6adf
+base64: o6zgNAuaat8=
+
+snake_name: set_reward_params
+namespace: global
+instruction: set_reward_params
+hash: [112, 52, 167, 75, 32, 201, 211, 137]
+hex: 0x7034a74b20c9d389
+base64: cDSnSyDJ04k=
+
+snake_name: collect_protocol_fee
+namespace: global
+instruction: collect_protocol_fee
+hash: [136, 136, 252, 221, 194, 66, 126, 89]
+hex: 0x8888fcddc2427e59
+base64: iIj83cJCflk=
+
+snake_name: collect_fund_fee
+namespace: global
+instruction: collect_fund_fee
+hash: [167, 138, 78, 149, 223, 194, 6, 126]
+hex: 0xa78a4e95dfc2067e
+base64: p4pOld/CBn4=
+
+snake_name: open_position
+namespace: global
+instruction: open_position
+hash: [135, 128, 47, 77, 15, 152, 240, 49]
+hex: 0x87802f4d0f98f031
+base64: h4AvTQ+Y8DE=
+
+snake_name: open_position_v2
+namespace: global
+instruction: open_position_v2
+hash: [77, 184, 74, 214, 112, 86, 241, 199]
+hex: 0x4db84ad67056f1c7
+base64: TbhK1nBW8cc=
+
+snake_name: open_position_with_token22_nft
+namespace: global
+instruction: open_position_with_token22_nft
+hash: [77, 255, 174, 82, 125, 29, 201, 46]
+hex: 0x4dffae527d1dc92e
+base64: Tf+uUn0dyS4=
+
+snake_name: close_position
+namespace: global
+instruction: close_position
+hash: [123, 134, 81, 0, 49, 68, 98, 98]
+hex: 0x7b86510031446262
+base64: e4ZRADFEYmI=
+
+snake_name: increase_liquidity
+namespace: global
+instruction: increase_liquidity
+hash: [46, 156, 243, 118, 13, 205, 251, 178]
+hex: 0x2e9cf3760dcdfbb2
+base64: Lpzzdg3N+7I=
+
+snake_name: increase_liquidity_v2
+namespace: global
+instruction: increase_liquidity_v2
+hash: [133, 29, 89, 223, 69, 238, 176, 10]
+hex: 0x851d59df45eeb00a
+base64: hR1Z30XusAo=
+
+snake_name: decrease_liquidity
+namespace: global
+instruction: decrease_liquidity
+hash: [160, 38, 208, 111, 104, 91, 44, 1]
+hex: 0xa026d06f685b2c01
+base64: oCbQb2hbLAE=
+
+snake_name: decrease_liquidity_v2
+namespace: global
+instruction: decrease_liquidity_v2
+hash: [58, 127, 188, 62, 79, 82, 196, 96]
+hex: 0x3a7fbc3e4f52c460
+base64: On+8Pk9SxGA=
+
+snake_name: swap
+namespace: global
+instruction: swap
+hash: [248, 198, 158, 145, 225, 117, 135, 200]
+hex: 0xf8c69e91e17587c8
+base64: +MaekeF1h8g=
+
+snake_name: swap_v2
+namespace: global
+instruction: swap_v2
+hash: [43, 4, 237, 11, 26, 201, 30, 98]
+hex: 0x2b04ed0b1ac91e62
+base64: KwTtCxrJHmI=
+
+snake_name: swap_router_base_in
+namespace: global
+instruction: swap_router_base_in
+hash: [69, 125, 115, 218, 245, 186, 242, 196]
+hex: 0x457d73daf5baf2c4
+base64: RX1z2vW68sQ=
+

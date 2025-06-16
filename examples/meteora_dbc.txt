@@ -1,0 +1,156 @@
+meteora_dbc.json 找到 instructions 节点，包含以下指令：
+
+snake_name: claim_creator_trading_fee
+namespace: global
+instruction: claim_creator_trading_fee
+hash: [82, 220, 250, 189, 3, 85, 107, 45]
+hex: 0x52dcfabd03556b2d
+base64: Utz6vQNVay0=
+
+snake_name: claim_protocol_fee
+namespace: global
+instruction: claim_protocol_fee
+hash: [165, 228, 133, 48, 99, 249, 255, 33]
+hex: 0xa5e4853063f9ff21
+base64: peSFMGP5/yE=
+
+snake_name: claim_trading_fee
+namespace: global
+instruction: claim_trading_fee
+hash: [8, 236, 89, 49, 152, 125, 177, 81]
+hex: 0x08ec5931987db151
+base64: COxZMZh9sVE=
+
+snake_name: close_claim_fee_operator
+namespace: global
+instruction: close_claim_fee_operator
+hash: [38, 134, 82, 216, 95, 124, 17, 99]
+hex: 0x268652d85f7c1163
+base64: JoZS2F98EWM=
+
+snake_name: create_claim_fee_operator
+namespace: global
+instruction: create_claim_fee_operator
+hash: [169, 62, 207, 107, 58, 187, 162, 109]
+hex: 0xa93ecf6b3abba26d
+base64: qT7Pazq7om0=
+
+snake_name: create_config
+namespace: global
+instruction: create_config
+hash: [201, 207, 243, 114, 75, 111, 47, 189]
+hex: 0xc9cff3724b6f2fbd
+base64: yc/zcktvL70=
+
+snake_name: create_locker
+namespace: global
+instruction: create_locker
+hash: [167, 90, 137, 154, 75, 47, 17, 84]
+hex: 0xa75a899a4b2f1154
+base64: p1qJmksvEVQ=
+
+snake_name: create_partner_metadata
+namespace: global
+instruction: create_partner_metadata
+hash: [192, 168, 234, 191, 188, 226, 227, 255]
+hex: 0xc0a8eabfbce2e3ff
+base64: wKjqv7zi4/8=
+
+snake_name: create_virtual_pool_metadata
+namespace: global
+instruction: create_virtual_pool_metadata
+hash: [45, 97, 187, 103, 254, 109, 124, 134]
+hex: 0x2d61bb67fe6d7c86
+base64: LWG7Z/5tfIY=
+
+snake_name: creator_withdraw_surplus
+namespace: global
+instruction: creator_withdraw_surplus
+hash: [165, 3, 137, 7, 28, 134, 76, 80]
+hex: 0xa50389071c864c50
+base64: pQOJBxyGTFA=
+
+snake_name: initialize_virtual_pool_with_spl_token
+namespace: global
+instruction: initialize_virtual_pool_with_spl_token
+hash: [140, 85, 215, 176, 102, 54, 104, 79]
+hex: 0x8c55d7b06636684f
+base64: jFXXsGY2aE8=
+
+snake_name: initialize_virtual_pool_with_token2022
+namespace: global
+instruction: initialize_virtual_pool_with_token2022
+hash: [169, 118, 51, 78, 145, 110, 220, 155]
+hex: 0xa976334e916edc9b
+base64: qXYzTpFu3Js=
+
+snake_name: migrate_meteora_damm
+namespace: global
+instruction: migrate_meteora_damm
+hash: [27, 1, 48, 22, 180, 63, 118, 217]
+hex: 0x1b013016b43f76d9
+base64: GwEwFrQ/dtk=
+
+snake_name: migrate_meteora_damm_claim_lp_token
+namespace: global
+instruction: migrate_meteora_damm_claim_lp_token
+hash: [139, 133, 2, 30, 91, 145, 127, 154]
+hex: 0x8b85021e5b917f9a
+base64: i4UCHluRf5o=
+
+snake_name: migrate_meteora_damm_lock_lp_token
+namespace: global
+instruction: migrate_meteora_damm_lock_lp_token
+hash: [177, 55, 238, 157, 251, 88, 165, 42]
+hex: 0xb137ee9dfb58a52a
+base64: sTfunftYpSo=
+
+snake_name: migration_damm_v2
+namespace: global
+instruction: migration_damm_v2
+hash: [156, 169, 230, 103, 53, 228, 80, 64]
+hex: 0x9ca9e66735e45040
+base64: nKnmZzXkUEA=
+
+snake_name: migration_damm_v2_create_metadata
+namespace: global
+instruction: migration_damm_v2_create_metadata
+hash: [109, 189, 19, 36, 195, 183, 222, 82]
+hex: 0x6dbd1324c3b7de52
+base64: bb0TJMO33lI=
+
+snake_name: migration_meteora_damm_create_metadata
+namespace: global
+instruction: migration_meteora_damm_create_metadata
+hash: [47, 94, 126, 115, 221, 226, 194, 133]
+hex: 0x2f5e7e73dde2c285
+base64: L15+c93iwoU=
+
+snake_name: partner_withdraw_surplus
+namespace: global
+instruction: partner_withdraw_surplus
+hash: [168, 173, 72, 100, 201, 98, 38, 92]
+hex: 0xa8ad4864c962265c
+base64: qK1IZMliJlw=
+
+snake_name: protocol_withdraw_surplus
+namespace: global
+instruction: protocol_withdraw_surplus
+hash: [54, 136, 225, 138, 172, 182, 214, 167]
+hex: 0x3688e18aacb6d6a7
+base64: Nojhiqy21qc=
+
+snake_name: swap
+namespace: global
+instruction: swap
+hash: [248, 198, 158, 145, 225, 117, 135, 200]
+hex: 0xf8c69e91e17587c8
+base64: +MaekeF1h8g=
+
+snake_name: withdraw_leftover
+namespace: global
+instruction: withdraw_leftover
+hash: [20, 198, 202, 237, 235, 243, 183, 66]
+hex: 0x14c6caedebf3b742
+base64: FMbK7evzt0I=
+
